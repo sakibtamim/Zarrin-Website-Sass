@@ -1,0 +1,32 @@
+.nav_bar {
+  background-color: #fff;
+  ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #150e06;
+    padding: 0 24px !important;
+
+    &.active {
+      color: #7c4ee4 !important;
+    }
+  }
+}
+.menu_con {
+  img {
+    width: 22px;
+    margin-left: 24px;
+    margin-right: 36px;
+  }
+  a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px 48px;
+    background-color: #7c4ee4;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+}
