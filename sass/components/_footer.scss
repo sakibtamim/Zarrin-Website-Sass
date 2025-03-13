@@ -1,57 +1,57 @@
 footer {
   padding: 54px 0;
-}
-.footer_body {
-  border-bottom: 1px solid #7c4ee4;
-  img {
-    padding-bottom: 40px;
+  .footer_body {
+    border-bottom: 1px solid #7c4ee4;
+    img {
+      padding-bottom: 40px;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 40px;
+      margin: 0;
+    }
+    li a {
+      font-size: 16px;
+      font-weight: normal;
+      color: #150e06;
+    }
   }
-  ul {
+
+  .socials {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
-    margin: 0;
+    .circle {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      margin-bottom: 40px;
+      background-color: #7c4ee4;
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      -o-border-radius: 100%;
+
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+      }
+    }
   }
-  li a {
+  .footer_btm p {
     font-size: 16px;
     font-weight: normal;
     color: #150e06;
+    padding-top: 40px;
   }
-}
-
-.socials {
-  display: flex;
-  justify-content: space-between;
-  .circle {
-    position: relative;
-    height: 40px;
-    width: 40px;
-    margin-bottom: 40px;
-    background-color: #7c4ee4;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-
-    a {
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-    }
-  }
-}
-.footer_btm p {
-  font-size: 16px;
-  font-weight: normal;
-  color: #150e06;
-  padding-top: 40px;
 }

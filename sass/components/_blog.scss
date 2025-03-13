@@ -1,105 +1,105 @@
 #blog {
   padding-bottom: 93px;
-}
-.blog_head {
-  padding-bottom: 90px;
-  h2 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #333333;
+  .blog_head {
+    padding-bottom: 90px;
+    h2 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #333333;
+    }
+    a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      padding: 16px 48px;
+      border-radius: 8px;
+      background-color: #7c4ee4;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+    }
   }
-  a {
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    padding: 16px 48px;
-    border-radius: 8px;
-    background-color: #7c4ee4;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+  .blog_main {
+    padding-bottom: 63px;
+    h6 {
+      padding-top: 16px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #999999;
+      font-family: "Roboto", sans-serif;
+      padding-bottom: 27px;
+    }
+    h3 {
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 45px;
+      color: #333333;
+      padding-bottom: 13px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      color: #666666;
+      padding-bottom: 61px;
+    }
+    a {
+      font-size: 14px;
+      font-weight: bold;
+      color: #7c4ee4;
+      font-family: "Roboto", sans-serif;
+      padding: 10px 28px;
+      border: 1px solid #7c4ee4;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+    }
+    .blog_main_txt {
+      padding-left: 40px;
+    }
   }
-}
-.blog_main {
-  padding-bottom: 63px;
-  h6 {
-    padding-top: 16px;
-    font-size: 12px;
-    font-weight: 500;
-    color: #999999;
-    font-family: "Roboto", sans-serif;
-    padding-bottom: 27px;
-  }
-  h3 {
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 45px;
-    color: #333333;
-    padding-bottom: 13px;
-  }
-  p {
-    font-size: 16px;
-    font-weight: normal;
-    color: #666666;
-    padding-bottom: 61px;
-  }
-  a {
-    font-size: 14px;
-    font-weight: bold;
-    color: #7c4ee4;
-    font-family: "Roboto", sans-serif;
-    padding: 10px 28px;
-    border: 1px solid #7c4ee4;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-  }
-  .blog_main_txt {
-    padding-left: 40px;
-  }
-}
 
-.blog_body {
-  padding-bottom: 98px;
-  img {
-    padding-bottom: 42px;
-  }
-  .card {
-    border: none;
-    background-color: transparent;
-  }
-  .card-body {
-    padding: 0;
-  }
-  h6 {
-    font-size: 12px;
-    font-weight: normal;
-    color: #999999;
-    font-family: "Roboto", sans-serif;
-    padding-bottom: 14px;
-  }
-  h5 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333333;
-    padding-bottom: 7px;
-  }
-  p {
-    font-size: 16px;
-    font-weight: normal;
-    color: #666666;
-    padding-bottom: 19px;
-    font-family: "Roboto", sans-serif;
-  }
-  a {
-    font-size: 18px;
-    font-weight: bold;
-    color: #7c4ee4;
-    text-decoration: underline;
-    font-family: "Roboto", sans-serif;
+  .blog_body {
+    padding-bottom: 98px;
+    img {
+      padding-bottom: 42px;
+    }
+    .card {
+      border: none;
+      background-color: transparent;
+    }
+    .card-body {
+      padding: 0;
+    }
+    h6 {
+      font-size: 12px;
+      font-weight: normal;
+      color: #999999;
+      font-family: "Roboto", sans-serif;
+      padding-bottom: 14px;
+    }
+    h5 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333333;
+      padding-bottom: 7px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      color: #666666;
+      padding-bottom: 19px;
+      font-family: "Roboto", sans-serif;
+    }
+    a {
+      font-size: 18px;
+      font-weight: bold;
+      color: #7c4ee4;
+      text-decoration: underline;
+      font-family: "Roboto", sans-serif;
+    }
   }
 }
